@@ -14,14 +14,14 @@ public class Staff {
     @TamLength(min = 1, max = 5)
     private String position;
 
+    private int salary;
+
     public Staff(String name, int age, String position, int salary) {
         this.name = name;
         this.age = age;
         this.position = position;
         this.salary = salary;
     }
-
-    private int salary;
 
     public String getName() {
         return name;
